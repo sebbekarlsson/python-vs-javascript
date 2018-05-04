@@ -9,6 +9,8 @@
 * Have an endpoint to register users
 * Have an endpoint to fuzzy search users by their username
 * Have an endpoint to send a message to a user
+* Have an endpoint to fetch all messages that a user has sent
+* Have an endpoint to fetch all messages that has been sent to a user
 * Encrypt the users password when registering
 
 ### The endpoints
@@ -23,6 +25,12 @@
 > `PUT /api/message/{user_id}`  
 > This accepts a JSON object with all the fields of a message.
 
+> _fetching messages that a user has sent_:  
+> `GET /api/message/{user_id}/sent`
+
+> _fetching messages that has been sent to a user_:  
+> `GET /api/message/{user_id}/received`
+
 ### The models
 > _The User model_:
 
@@ -34,8 +42,8 @@
 
 * message - String
 * created - Datetime
-
-> How you connect messages with users is _up to you!_.
+* sender - User
+* receiver - User
 
 ### Database
 > For simplicity, you should only store data in plain JSON files on
