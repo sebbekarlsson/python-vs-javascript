@@ -36,3 +36,7 @@
 * created - Datetime
 
 > How you connect messages with users is _up to you!_.
+
+### Database
+> For simplicity, you should only store data in plain JSON files on
+> the filesystem.
