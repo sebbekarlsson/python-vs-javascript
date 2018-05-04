@@ -9,6 +9,7 @@
 * Have an endpoint to register users
 * Have an endpoint to fuzzy search users by their username
 * Have an endpoint to send a message to a user
+* Encrypt the users password when registering
 
 ### The endpoints
 > _registering a user_:  
