@@ -22,7 +22,7 @@
 > `GET: /api/user?q={query}`
 
 > _sending a message to a user_:  
-> `PUT /api/message/{user_id}`  
+> `PUT /api/message`  
 > This accepts a JSON object with all the fields of a message.
 
 > _fetching messages that a user has sent_:  
@@ -34,7 +34,7 @@
 ### The models
 > _The User model_:
 
-* username - String
+* username - String (Unique)
 * email - String
 * password - String
 
@@ -48,3 +48,6 @@
 ### Database
 > For simplicity, you should only store data in plain JSON files on
 > the filesystem.
+
+### Authentication
+> For this challange we will ignore authentication
