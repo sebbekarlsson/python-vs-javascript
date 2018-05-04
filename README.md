@@ -1,7 +1,7 @@
 # Comparing Python With Javascript
 > Which one is more effective?  
 > Which one requires less code?  
-> Which one takes up the most memory when built?
+> Which one takes up the least memory when built?
 
 ## The challange
 > The challange is to build a JSON API, the API should do the following:
