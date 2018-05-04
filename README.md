@@ -50,4 +50,5 @@
 > the filesystem.
 
 ### Authentication
-> For this challange we will ignore authentication
+> For this challange we will ignore authentication.  
+> (You dont need to be able to login as a user etc...)
