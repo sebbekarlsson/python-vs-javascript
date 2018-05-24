@@ -1,0 +1,2 @@
+class FieldNotUniqueException(Exception):
+    pass

@@ -1,0 +1,3 @@
+[submodule "javascript/rest-api-js"]
+	path = javascript/rest-api-js
+	url = https://github.com/JohanGustafsson91/rest-api-js

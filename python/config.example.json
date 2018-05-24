@@ -1,0 +1,5 @@
+{
+    "debug": true,
+    "threaded": true,
+    "database": "/tmp/database.json"
+}
