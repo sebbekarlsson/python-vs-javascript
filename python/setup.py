@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
@@ -8,9 +8,15 @@ setup(
         'bcrypt',
         'flask'
     ],
-    packages=[
-        'jsonapi'
-    ],
+    packages=find_packages(exclude=[
+        "*.tests",
+        "*.tests.*",
+        "tests.*",
+        "tests",
+        "*tests*",
+        "*.pyc"
+    ]),
+    data_files=[('', ['__main__.py', ])],
     entry_points={
         'console_scripts': [
         ]

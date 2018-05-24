@@ -19,3 +19,8 @@
     python __main___.py
 
 > The app should now be available at `http://localhost:5000`
+
+## Building
+> To build the project into a `.egg` file run:
+
+    ./build.sh
