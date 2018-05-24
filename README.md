@@ -3,6 +3,14 @@
 > Which one requires less code?  
 > Which one takes up the least memory when built?
 
+# RESULTS
+## Before building
+> Javascript API: 116M  
+> Python API: 23M
+## After building
+> Javascript API: 28K  
+> Python API: 12K
+
 ## The challange
 > The challange is to build a JSON API, the API should do the following:
 
