@@ -11,8 +11,8 @@
 > Javascript API: 28K  
 > Python API: 12K
 
-## The challange
-> The challange is to build a JSON API, the API should do the following:
+## The challenge
+> The challenge is to build a JSON API, the API should do the following:
 
 * Have an endpoint to register users
 * Have an endpoint to fuzzy search users by their username
@@ -58,5 +58,5 @@
 > the filesystem.
 
 ### Authentication
-> For this challange we will ignore authentication.  
+> For this challenge we will ignore authentication.  
 > (You dont need to be able to login as a user etc...)
